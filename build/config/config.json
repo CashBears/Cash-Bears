@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0xcAd88cBE12bf9A0eAa0f80091dbFbdC0257Abe68",
+  "SCAN_LINK": "https://oasis.cash/collection/0xcAd88cBE12bf9A0eAa0f80091dbFbdC0257Abe68",
+  "NETWORK": {
+    "NAME": "SmartBCH",
+    "SYMBOL": "BCH",
+    "ID": 10000
+  },
+  "NFT_NAME": "Cash Bears",
+  "SYMBOL": "CBears",
+  "MAX_SUPPLY": 1500,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Oasis",
+  "MARKETPLACE_LINK": "https://oasis.cash/colection/0xcAd88cBE12bf9A0eAa0f80091dbFbdC0257Abe68",
+  "SHOW_BACKGROUND": false
+}
