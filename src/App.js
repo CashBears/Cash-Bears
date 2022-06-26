@@ -228,7 +228,7 @@ function App() {
                 color: "#000",
               }}
             >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
+              
             </s.TextTitle>
             <s.TextDescription
               style={{
@@ -263,8 +263,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "#000" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
+                  BURN YOUR NFT AND EARN BCH
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
