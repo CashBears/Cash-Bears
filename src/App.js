@@ -99,7 +99,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Click buy to mint I'M TIRED NFT.`);
+  const [feedback, setFeedback] = useState(`Click burn to BURN I'M TIRED NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
@@ -127,7 +127,7 @@ function App() {
     let totalGasLimit = String(gasLimit * mintAmount);
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
-    setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
+    setFeedback(`Approving...`);
     setClaimingNft(true);
     blockchain.smartContract.methods
       .mint(mintAmount)
@@ -327,7 +327,7 @@ function App() {
                           decrementMintAmount();
                         }}
                       >
-                        -
+                        
                       </StyledRoundButton>
                       <s.SpacerMedium />
                       <s.TextDescription
@@ -336,7 +336,7 @@ function App() {
                           color: "#000",
                         }}
                       >
-                        {mintAmount}
+                        
                       </s.TextDescription>
                       <s.SpacerMedium />
                       <StyledRoundButton
@@ -346,7 +346,7 @@ function App() {
                           incrementMintAmount();
                         }}
                       >
-                        +
+                        
                       </StyledRoundButton>
                     </s.Container>
                     <s.SpacerSmall />
@@ -359,7 +359,7 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "BUSY" : "BUY"}
+                        {claimingNft ? "Approving" : "APPROVE"}
                       </StyledButton>
                     </s.Container>
                   </>
