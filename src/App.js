@@ -220,16 +220,7 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
-            <s.TextTitle
-              style={{
-                textAlign: "center",
-                fontSize: 50,
-                fontWeight: "bold",
-                color: "#000",
-              }}
-            >
-              {data.totalSupply} / {CONFIG.MAX_SUPPLY}
-            </s.TextTitle>
+            
             <s.TextDescription
               style={{
                 textAlign: "center",
@@ -263,8 +254,7 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "#000" }}
                 >
-                  1 {CONFIG.SYMBOL} costs {CONFIG.DISPLAY_COST}{" "}
-                  {CONFIG.NETWORK.SYMBOL}.
+                  Burn your NFT to Earn BCH
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
