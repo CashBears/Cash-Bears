@@ -327,7 +327,6 @@ function App() {
                     </s.Container>
             
                 )}
-              </>
             )}
             <s.SpacerMedium />
           </s.Container>
